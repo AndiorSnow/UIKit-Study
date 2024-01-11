@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>UIMainStoryboardFile</key>
+	<string>Navigation</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
@@ -11,12 +13,28 @@
 			<key>UIWindowSceneSessionRoleApplication</key>
 			<array>
 				<dict>
-					<key>UISceneConfigurationName</key>
-					<string>Default Configuration</string>
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneConfigurationName</key>
+					<string>Tab Bar Configuration</string>
 					<key>UISceneStoryboardFile</key>
-					<string>Main</string>
+					<string>TabBar</string>
+				</dict>
+				<dict>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneConfigurationName</key>
+					<string>Navigation Configuration</string>
+					<key>UISceneStoryboardFile</key>
+					<string>Navigation</string>
+				</dict>
+				<dict>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
+					<key>UISceneConfigurationName</key>
+					<string>Default Configuration</string>
+					<key>UISceneStoryboardFile</key>
+					<string>UITableView</string>
 				</dict>
 			</array>
 		</dict>
