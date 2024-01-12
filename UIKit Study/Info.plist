@@ -16,25 +16,9 @@
 					<key>UISceneDelegateClassName</key>
 					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
 					<key>UISceneConfigurationName</key>
-					<string>Tab Bar Configuration</string>
-					<key>UISceneStoryboardFile</key>
-					<string>TabBar</string>
-				</dict>
-				<dict>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneConfigurationName</key>
-					<string>Navigation Configuration</string>
-					<key>UISceneStoryboardFile</key>
-					<string>Navigation</string>
-				</dict>
-				<dict>
-					<key>UISceneDelegateClassName</key>
-					<string>$(PRODUCT_MODULE_NAME).SceneDelegate</string>
-					<key>UISceneConfigurationName</key>
 					<string>Default Configuration</string>
 					<key>UISceneStoryboardFile</key>
-					<string>UITableView</string>
+					<string>UICollectionView</string>
 				</dict>
 			</array>
 		</dict>

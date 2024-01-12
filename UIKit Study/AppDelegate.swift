@@ -28,9 +28,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
         print("\(type(of: self)): \(#function)")
-//        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
+        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
 //        return UISceneConfiguration(name: "Navigation Configuration", sessionRole: connectingSceneSession.role)
-        return UISceneConfiguration(name: "Tab Bar Configuration", sessionRole: connectingSceneSession.role)
+//        return UISceneConfiguration(name: "Tab Bar Configuration", sessionRole: connectingSceneSession.role)
     }
 
     func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {

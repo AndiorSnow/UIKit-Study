@@ -30,11 +30,14 @@
 		B47E72E72B4E8F6F0098D286 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47E72E62B4E8F6F0098D286 /* XibViewController.xib */; };
 		B47E72E92B4F77110098D286 /* UIScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47E72E82B4F77110098D286 /* UIScrollView.storyboard */; };
 		B47E72EB2B4F77240098D286 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E72EA2B4F77240098D286 /* UIScrollView.swift */; };
+		B4AA9A4C2B5115C200991EC1 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9A4B2B5115C200991EC1 /* UICollectionViewCell.swift */; };
 		B4AFD7002B4FADB500C5DF2F /* UITableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AFD6FF2B4FADB500C5DF2F /* UITableView.storyboard */; };
 		B4AFD7022B4FADBF00C5DF2F /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AFD7012B4FADBF00C5DF2F /* UITableView.swift */; };
 		B4AFD7042B4FB65000C5DF2F /* UITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AFD7032B4FB65000C5DF2F /* UITableViewCell.swift */; };
 		B4AFD7062B4FC4A000C5DF2F /* UICollectionView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AFD7052B4FC4A000C5DF2F /* UICollectionView.storyboard */; };
 		B4AFD7082B4FC4AE00C5DF2F /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AFD7072B4FC4AE00C5DF2F /* UICollectionView.swift */; };
+		B4AFD7482B50CF4000C5DF2F /* UIStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AFD7472B50CF4000C5DF2F /* UIStackView.storyboard */; };
+		B4AFD74A2B50CF5000C5DF2F /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AFD7492B50CF5000C5DF2F /* UIStackView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,11 +85,14 @@
 		B47E72E62B4E8F6F0098D286 /* XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
 		B47E72E82B4F77110098D286 /* UIScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIScrollView.storyboard; sourceTree = "<group>"; };
 		B47E72EA2B4F77240098D286 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		B4AA9A4B2B5115C200991EC1 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		B4AFD6FF2B4FADB500C5DF2F /* UITableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITableView.storyboard; sourceTree = "<group>"; };
 		B4AFD7012B4FADBF00C5DF2F /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
 		B4AFD7032B4FB65000C5DF2F /* UITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewCell.swift; sourceTree = "<group>"; };
 		B4AFD7052B4FC4A000C5DF2F /* UICollectionView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UICollectionView.storyboard; sourceTree = "<group>"; };
 		B4AFD7072B4FC4AE00C5DF2F /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
+		B4AFD7472B50CF4000C5DF2F /* UIStackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIStackView.storyboard; sourceTree = "<group>"; };
+		B4AFD7492B50CF5000C5DF2F /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +169,9 @@
 				B4AFD7032B4FB65000C5DF2F /* UITableViewCell.swift */,
 				B4AFD7052B4FC4A000C5DF2F /* UICollectionView.storyboard */,
 				B4AFD7072B4FC4AE00C5DF2F /* UICollectionView.swift */,
+				B4AA9A4B2B5115C200991EC1 /* UICollectionViewCell.swift */,
+				B4AFD7472B50CF4000C5DF2F /* UIStackView.storyboard */,
+				B4AFD7492B50CF5000C5DF2F /* UIStackView.swift */,
 			);
 			path = "UIKit Study";
 			sourceTree = "<group>";
@@ -290,6 +299,7 @@
 			files = (
 				B47E72D52B4D8A290098D286 /* TabBar.storyboard in Resources */,
 				B4AFD7002B4FADB500C5DF2F /* UITableView.storyboard in Resources */,
+				B4AFD7482B50CF4000C5DF2F /* UIStackView.storyboard in Resources */,
 				B47E72DD2B4E83A30098D286 /* AutoLayout.storyboard in Resources */,
 				B47E72E72B4E8F6F0098D286 /* XibViewController.xib in Resources */,
 				B47E72CD2B4D49FF0098D286 /* Navigation.storyboard in Resources */,
@@ -325,6 +335,7 @@
 				B4AFD7082B4FC4AE00C5DF2F /* UICollectionView.swift in Sources */,
 				B47E72D32B4D4BD20098D286 /* SecondViewController.swift in Sources */,
 				B47E72D12B4D4B6E0098D286 /* RootViewController.swift in Sources */,
+				B4AA9A4C2B5115C200991EC1 /* UICollectionViewCell.swift in Sources */,
 				B47E72DB2B4E32810098D286 /* ChildViewController.swift in Sources */,
 				B47E72A12B4D42F20098D286 /* ViewController.swift in Sources */,
 				B47E72E32B4E8A8C0098D286 /* XibViewController.swift in Sources */,
@@ -333,6 +344,7 @@
 				B47E72CF2B4D4AC00098D286 /* NavigationController.swift in Sources */,
 				B47E72D72B4D8C370098D286 /* TabBarViewController.swift in Sources */,
 				B47E729D2B4D42F20098D286 /* AppDelegate.swift in Sources */,
+				B4AFD74A2B50CF5000C5DF2F /* UIStackView.swift in Sources */,
 				B47E72EB2B4F77240098D286 /* UIScrollView.swift in Sources */,
 				B4AFD7022B4FADBF00C5DF2F /* UITableView.swift in Sources */,
 				B47E72DF2B4E83B70098D286 /* AutoLayout.swift in Sources */,
