@@ -38,6 +38,8 @@
 		B4AFD7082B4FC4AE00C5DF2F /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AFD7072B4FC4AE00C5DF2F /* UICollectionView.swift */; };
 		B4AFD7482B50CF4000C5DF2F /* UIStackView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AFD7472B50CF4000C5DF2F /* UIStackView.storyboard */; };
 		B4AFD74A2B50CF5000C5DF2F /* UIStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AFD7492B50CF5000C5DF2F /* UIStackView.swift */; };
+		B4B69AA62B54D2C30034C27A /* UIGestureRecognizer.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B69AA52B54D2C30034C27A /* UIGestureRecognizer.storyboard */; };
+		B4B69AA82B54D2CE0034C27A /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B69AA72B54D2CE0034C27A /* UIGestureRecognizer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +95,8 @@
 		B4AFD7072B4FC4AE00C5DF2F /* UICollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionView.swift; sourceTree = "<group>"; };
 		B4AFD7472B50CF4000C5DF2F /* UIStackView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIStackView.storyboard; sourceTree = "<group>"; };
 		B4AFD7492B50CF5000C5DF2F /* UIStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackView.swift; sourceTree = "<group>"; };
+		B4B69AA52B54D2C30034C27A /* UIGestureRecognizer.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIGestureRecognizer.storyboard; sourceTree = "<group>"; };
+		B4B69AA72B54D2CE0034C27A /* UIGestureRecognizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIGestureRecognizer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,8 +164,6 @@
 				B47E72DE2B4E83B70098D286 /* AutoLayout.swift */,
 				B47E72E62B4E8F6F0098D286 /* XibViewController.xib */,
 				B47E72E22B4E8A8C0098D286 /* XibViewController.swift */,
-				B47E72AA2B4D42F40098D286 /* Info.plist */,
-				B47E72A52B4D42F40098D286 /* Assets.xcassets */,
 				B47E72E82B4F77110098D286 /* UIScrollView.storyboard */,
 				B47E72EA2B4F77240098D286 /* UIScrollView.swift */,
 				B4AFD6FF2B4FADB500C5DF2F /* UITableView.storyboard */,
@@ -172,6 +174,10 @@
 				B4AA9A4B2B5115C200991EC1 /* UICollectionViewCell.swift */,
 				B4AFD7472B50CF4000C5DF2F /* UIStackView.storyboard */,
 				B4AFD7492B50CF5000C5DF2F /* UIStackView.swift */,
+				B4B69AA52B54D2C30034C27A /* UIGestureRecognizer.storyboard */,
+				B4B69AA72B54D2CE0034C27A /* UIGestureRecognizer.swift */,
+				B47E72AA2B4D42F40098D286 /* Info.plist */,
+				B47E72A52B4D42F40098D286 /* Assets.xcassets */,
 			);
 			path = "UIKit Study";
 			sourceTree = "<group>";
@@ -307,6 +313,7 @@
 				B47E72A92B4D42F40098D286 /* LaunchScreen.storyboard in Resources */,
 				B47E72A62B4D42F40098D286 /* Assets.xcassets in Resources */,
 				B47E72E92B4F77110098D286 /* UIScrollView.storyboard in Resources */,
+				B4B69AA62B54D2C30034C27A /* UIGestureRecognizer.storyboard in Resources */,
 				B47E72A42B4D42F20098D286 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -335,6 +342,7 @@
 				B4AFD7082B4FC4AE00C5DF2F /* UICollectionView.swift in Sources */,
 				B47E72D32B4D4BD20098D286 /* SecondViewController.swift in Sources */,
 				B47E72D12B4D4B6E0098D286 /* RootViewController.swift in Sources */,
+				B4B69AA82B54D2CE0034C27A /* UIGestureRecognizer.swift in Sources */,
 				B4AA9A4C2B5115C200991EC1 /* UICollectionViewCell.swift in Sources */,
 				B47E72DB2B4E32810098D286 /* ChildViewController.swift in Sources */,
 				B47E72A12B4D42F20098D286 /* ViewController.swift in Sources */,
