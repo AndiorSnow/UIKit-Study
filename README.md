@@ -1,5 +1,5 @@
-# iOS Study  
-## Week 2: UIKit  
+# UIKit Study
+## Week 2
 ### Day1  
 - UIKit Foundation  
 - App Lifecycle  
@@ -28,3 +28,8 @@
 ### Day5  
 - UITableView  
 - UICollectionView
+
+## Week 3
+### Day 1
+- UITouch
+- UIGestureRecognizer
