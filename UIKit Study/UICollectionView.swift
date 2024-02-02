@@ -30,7 +30,7 @@ class CollectionViewController: UIViewController {
         layout.minimumLineSpacing = margin
         // Minimum line spacing between cells perpendicular to the scroll direction
         layout.minimumInteritemSpacing = margin
-        // The inner tangent distance of each group of cells
+        // The inner tangent distance of each section of cells
         layout.sectionInset = UIEdgeInsets(top: 0, left: margin, bottom: 0, right: margin)
         
         // The size of header/footer view in each section

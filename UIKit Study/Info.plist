@@ -18,7 +18,7 @@
 					<key>UISceneConfigurationName</key>
 					<string>Default Configuration</string>
 					<key>UISceneStoryboardFile</key>
-					<string>UIGestureRecognizer</string>
+					<string>Navigation</string>
 				</dict>
 			</array>
 		</dict>

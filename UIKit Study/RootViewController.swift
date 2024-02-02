@@ -9,6 +9,8 @@ import UIKit
 
 class RootViewController: UIViewController {
 
+    @IBOutlet weak var tableView: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -21,6 +23,7 @@ class RootViewController: UIViewController {
         let item2 = UIBarButtonItem(title: "Button2", style: .plain, target: nil, action: nil)
 
         setToolbarItems([item1, space, item2], animated: true)
+        
     }
 
     @IBAction func click(_ sender: Any) {
@@ -74,4 +77,21 @@ extension RootViewController: CustomDelegate {
     func doCustomDelegate(a: Int) {
         print("Second delegate", a)
     }
+}
+
+extension RootViewController: UITableViewDataSource {
+    // number of cells
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 2
+    }
+    // UITableViewCell
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell: SearchCell? = tableView.dequeueReusableCell(withIdentifier: "tableCell_id") as? SearchCell
+
+        return cell!
+    }
+}
+
+extension RootViewController: UITableViewDelegate {
+    
 }

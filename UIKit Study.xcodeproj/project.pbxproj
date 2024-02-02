@@ -30,6 +30,7 @@
 		B47E72E72B4E8F6F0098D286 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B47E72E62B4E8F6F0098D286 /* XibViewController.xib */; };
 		B47E72E92B4F77110098D286 /* UIScrollView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B47E72E82B4F77110098D286 /* UIScrollView.storyboard */; };
 		B47E72EB2B4F77240098D286 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47E72EA2B4F77240098D286 /* UIScrollView.swift */; };
+		B49F87AF2B6351E500E2C93A /* SearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B49F87AE2B6351E500E2C93A /* SearchCell.swift */; };
 		B4AA9A4C2B5115C200991EC1 /* UICollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AA9A4B2B5115C200991EC1 /* UICollectionViewCell.swift */; };
 		B4AFD7002B4FADB500C5DF2F /* UITableView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4AFD6FF2B4FADB500C5DF2F /* UITableView.storyboard */; };
 		B4AFD7022B4FADBF00C5DF2F /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AFD7012B4FADBF00C5DF2F /* UITableView.swift */; };
@@ -87,6 +88,7 @@
 		B47E72E62B4E8F6F0098D286 /* XibViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
 		B47E72E82B4F77110098D286 /* UIScrollView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UIScrollView.storyboard; sourceTree = "<group>"; };
 		B47E72EA2B4F77240098D286 /* UIScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIScrollView.swift; sourceTree = "<group>"; };
+		B49F87AE2B6351E500E2C93A /* SearchCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchCell.swift; sourceTree = "<group>"; };
 		B4AA9A4B2B5115C200991EC1 /* UICollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewCell.swift; sourceTree = "<group>"; };
 		B4AFD6FF2B4FADB500C5DF2F /* UITableView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UITableView.storyboard; sourceTree = "<group>"; };
 		B4AFD7012B4FADBF00C5DF2F /* UITableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableView.swift; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				B47E72CE2B4D4AC00098D286 /* NavigationController.swift */,
 				B47E72D02B4D4B6E0098D286 /* RootViewController.swift */,
 				B47E72D22B4D4BD20098D286 /* SecondViewController.swift */,
+				B49F87AE2B6351E500E2C93A /* SearchCell.swift */,
 				B47E72D42B4D8A290098D286 /* TabBar.storyboard */,
 				B47E72D62B4D8C370098D286 /* TabBarViewController.swift */,
 				B47E72D82B4D8D210098D286 /* HomeViewController.swift */,
@@ -343,6 +346,7 @@
 				B47E72D32B4D4BD20098D286 /* SecondViewController.swift in Sources */,
 				B47E72D12B4D4B6E0098D286 /* RootViewController.swift in Sources */,
 				B4B69AA82B54D2CE0034C27A /* UIGestureRecognizer.swift in Sources */,
+				B49F87AF2B6351E500E2C93A /* SearchCell.swift in Sources */,
 				B4AA9A4C2B5115C200991EC1 /* UICollectionViewCell.swift in Sources */,
 				B47E72DB2B4E32810098D286 /* ChildViewController.swift in Sources */,
 				B47E72A12B4D42F20098D286 /* ViewController.swift in Sources */,
